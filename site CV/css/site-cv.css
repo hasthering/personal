@@ -1,0 +1,169 @@
+html{
+    height: 100%;
+}
+    
+body{
+    width: 100%;
+    height: 100%;
+    background: black;
+    margin: 0;
+    color: white;
+    font-family: serif;
+}
+
+.header-wrapper{
+    height: 116px;
+}
+
+.nav-barre{
+    background: #8fa240;
+    width: 100%;
+    height: 116px;
+    position: fixed;
+    overflow: hidden;
+}
+
+.logo{
+    display: inline-block;
+    position: absolute;
+    overflow: hidden;
+}
+
+a{
+    border-style: none;
+}
+
+.nav{
+    display: inline-block;
+    position: absolute;
+    right: 0;
+}
+
+ul{
+    margin: 0;
+}
+.navli{
+    float: left;
+    list-style: none;
+    text-align: center;
+    width: 150px;
+    overflow: hidden;
+    border-right: solid #423c3c;
+    padding-top: 47px;
+    padding-bottom: 53px;
+    transition: background-color 0.3s linear;
+}
+
+li:hover{
+    background-color: #423c3c;
+    text-decoration: none;
+}
+
+.a-nav{
+    color: white;
+    text-decoration: none;
+    overflow: hidden;
+}
+
+.container{
+    /*height: 100%;*/
+    margin: 1%;
+}
+
+/*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<debut de colonne de gauche>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+.colomn-left{
+    display: inline-block;
+    width: 20%;
+    height: 100%;
+    word-wrap: break-word;
+}
+
+.article-left1{
+    display: inline-block;
+    width: 95%;
+    height: auto;
+    margin-bottom: 4%;
+    background: #423c3c;
+}
+
+.article-left2{
+    display: inline-block;
+    width: 95%;
+    height: auto;
+    margin-bottom: 4%;
+    background: #423c3c;
+}
+
+.article-left3{
+    display: inline-block;
+    width: 95%;
+    height: 257px;
+    min-height: 257px;
+    max-height: 10%;
+    background: #423c3c;
+    overflow-y: scroll;
+}
+
+/*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<fin de colonne de gauche>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+/*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<debut de colonne de droite>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+.colomn-right{
+    float: right;
+    width: 80%;
+    height: 100%;
+    overflow: hidden;
+}
+
+
+.article-right1{
+    display: inline-block;
+    width: 35%;
+    height: 100%;
+    padding: 1%;
+        padding-bottom: 0;
+    background: #423c3c;
+}
+
+.article-right2{
+    float: right;
+    width: 60%;
+    height: 100%;
+    margin-left: 1%;
+    padding: 1%;
+        padding-bottom: 0;
+    background: #423c3c;
+}
+
+/*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<fin de colonne de droite>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+h1{
+    
+}
+
+.footer-wrapper{
+    bottom: 0;
+    background: #8fa240;
+    padding: 1%;
+}
+
+.panel-left{
+    display: inline-block;
+    width: 50%;
+}
+
+.panel-right{
+    float: right;
+}
+
+h2{
+    margin: 0;
+}
+
+.block-left{
+    display: inline-block;
+}
+
+.block-right{
+    float: right;
+}
