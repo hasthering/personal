@@ -1,0 +1,561 @@
+html, body {
+	position: relative;
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+h1, h2, h3, h4, p {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    float: left;
+    width: 100%;
+    display: block;
+}
+
+.home {
+    float: left;
+    width: 100%;
+}
+
+.home .intro {
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 966px;
+}
+
+/*début slider*/
+
+.home .intro .slider {
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.home .intro .slider-inner {
+	overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: calc(1920px*5);
+    height: 100%;
+}
+
+.home .intro .slider-inner .view {
+	position: relative;
+	float: left;
+	width: 1920px;
+	height: 100%;
+    animation: glisse 20s infinite;
+	top: 0;
+	left: 0;
+}
+
+.home .intro .slider-inner .view .image {
+	position: absolute;
+	width: 1920px;
+	height: 100%;
+}
+
+.home .intro .slider-inner .view img.height {
+    height: 100%;
+    width: auto;
+    margin-top: 0px;
+    margin-left: -86px;
+}
+
+@keyframes glisse {
+  0% {
+    transform: translateX(0);
+  }
+
+  10% {
+    transform: translateX(0);
+  }
+
+  25% {
+    transform: translateX(-1920px);
+  }
+
+  35% {
+    transform: translateX(-1920px);
+  }
+
+  45% {
+    transform: translateX(-3840px);
+  }
+
+  60% {
+    transform: translateX(-3840px);
+  }
+
+  75% {
+    transform: translateX(-5760px);
+  }
+
+  90% {
+    transform: translateX(-5760px);
+  }
+
+  100% {
+    transform: translateX(-7680px);
+  }
+}
+
+.home .intro .slider-inner .view .text {
+    position: absolute;
+    left: 80px;
+    bottom: 90px;
+    width: 50%;
+}
+
+.home .intro .slider-inner .view .text .label {
+    float: left;
+    width: 100%;
+    margin: 0 0 12px 0;
+}
+
+.home .intro .slider-inner .view .text h1 {
+    float: left;
+    width: 75%;
+    padding: 0 25% 0 0;
+    margin: 0 0 20px 0;
+    font: normal 600 60px/1.1 'Open Sans';
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #000;
+}
+
+.home .intro .slider-inner .view .text p {
+    float: left;
+    width: 100%;
+    margin: 0 0 30px 0;
+    font: normal 600 20px/2 'Open Sans';
+    color: #000;
+}
+
+.home .intro .slider-inner .view .text a {
+    position: relative;
+    float: left;
+    padding: 0 30px;
+    font: normal 600 14px/2 'Open Sans';
+    text-transform: uppercase;
+    border: 3px solid #000;
+    text-decoration: none;
+}
+
+.home .intro .slider-inner .view .text .label span {
+    float: left;
+    background: #FFF;
+    padding: 0 5px;
+    font: normal 600 14px/2 'Open Sans';
+    text-transform: uppercase;
+    color: #000;
+}
+
+.home .intro .slider-inner .view .text a .txt {
+    position: relative;
+    float: left;
+    color: #000;
+    margin: 0;
+    z-index: 1;
+}
+
+.home .intro .slider .prev, .home .intro .slider .next {
+    position: absolute;
+    top: 50%;
+    width: 24px;
+    height: 24px;
+    margin: -12px 0 0 0;
+    cursor: pointer;
+    z-index: 3;
+}
+
+.home .intro .slider .prev {
+    left: 30px;
+}
+
+.home .intro .slider .next {
+    right: 30px;
+}
+
+.home .intro .slider .prev img, .home .intro .slider .next img {
+    width: 100%;
+    height: auto;
+}
+/*fin slider*/
+
+img {
+    display: block;
+    border: 0;
+    margin: 0;
+        margin-top: 0px;
+        margin-left: 0px;
+}
+
+.agency, .activities {
+
+    float: left;
+    width: 100%;
+    padding: 80px 0 0 0;
+
+}
+
+.agency .section, .activities .section {
+    float: left;
+    width: 100%;
+}
+
+.agency .section .left, .activities .section .left {
+    overflow: hidden;
+}
+
+.agency .section .left, .agency .section .right, .activities .section .left, .activities .section .right {
+    position: relative;
+    float: left;
+    width: 50%;
+    height: 100%;
+}
+
+.agency .section .image, .activities .section .image {
+    width: 100%;
+    height: 100%;
+}
+
+.agency .section .image img.height, .activities .section .image img.height {
+    width: auto;
+    height: 100%;
+}
+
+.agency .section .text, .activities .section .text {
+    position: absolute;
+    top: 100px;
+    left: 80px;
+    width: 70%;
+    max-width: 540px;
+    margin: 0 auto;
+}
+
+.agency .section h1, .activities .section h1 {
+    float: left;
+    width: 100%;
+    margin: 0 0 30px 0;
+    font: normal 600 60px/1.1 'Open Sans';
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    z-index: 1;
+}
+
+.agency .full .right, .activities .full .right {
+    padding-top: 120px;
+}
+
+.agency .section h2, .activities .section h2 {
+    float: left;
+    width: 100%;
+    margin: 0 0 30px 0;
+    font: normal 600 18px/1 'Open Sans';
+    letter-spacing: 2px;
+}
+
+.agency .section p, .activities .section p {
+    float: left;
+    width: 100%;
+    margin: 0 0 20px 0;
+    font: normal 400 14px/2 'Open Sans';
+    color: #DDD;
+}
+
+.agency .two .left, .activities .one .left, .activities .three .left, .activities .five .left {
+    float: right;
+}
+
+.agency .one .text {
+    color: #FFF;
+}
+
+.agency .one p {
+    color: #DDD;
+}
+
+.agency .two p{
+    color: #444;
+}
+
+.agency .two, .agency .four, .agency .six, .agency .height, .activities .two, .activities .four, .activities .six {
+    background: #92b3c7;
+}
+
+.agency .one, .agency .three, .agency .five, .agency .seven, .activities .one, .activities .three, .activities .five {
+    background: #637725;
+}
+
+.activities .one h1, .activities .three h1, .activities .five h1 {
+    color: #FFF;
+}
+
+.activities .two p, .activities .four p, .activities .six p {
+    color: #444;
+}
+
+/*début agency*/
+
+.home .agency {
+    position: relative;
+    float: left;
+    width: 50%;
+    height: 886px;
+    background: center url(../img/plan_archi.jpg);
+}
+
+.home .agency .text {
+    position: absolute;
+    left: 10%;
+    top: 170px;
+    width: 80%;
+}
+
+.home .agency .text h1 {
+    float: left;
+    width: 100%;
+    font: normal 600 60px/1.1 'Open Sans';
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+.home .agency .text h2 {
+    float: left;
+    width: 100%;
+    margin: 0 0 20px 0;
+    font: normal 600 18px/1.1 'Open Sans';
+    letter-spacing: 2px;
+}
+
+.home .agency .text p {
+    float: left;
+    width: 100%;
+    margin: 0 0 30px 0;
+    font: normal 400 14px/2 'Open Sans';
+    color: #444;
+}
+
+.home .agency .text a {
+    position: relative;
+    float: left;
+    padding: 0 20px;
+    font: normal 600 14px/2 'Open Sans';
+    border: 2px solid #000;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #000;
+}
+
+/*fin agency*/
+/*début activities*/
+
+.home .activities {
+    position: relative;
+    float: left;
+    width: 50%;
+    height: 886px;
+    background: center url(../img/fond_bois.jpg);
+}
+
+.home .activities .text {
+    position: absolute;
+    left: 10%;
+    top: 170px;
+    width: 80%;
+}
+
+.home .activities .text h1 {
+
+    float: left;
+    width: 100%;
+    font: normal 600 60px/1.1 'Open Sans';
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #FFF;
+}
+
+.home .activities .text h2 {
+
+    float: left;
+    width: 100%;
+    margin: 0 0 20px 0;
+    font: normal 600 18px/1.1 'Open Sans';
+    letter-spacing: 2px;
+    color: #FFF;
+}
+
+.home .activities .text p {
+
+    float: left;
+    width: 100%;
+    margin: 0 0 30px 0;
+    font: normal 400 14px/2 'Open Sans';
+    color: #DDD;
+}
+
+.home .activities .text a {
+
+    position: relative;
+    float: left;
+    padding: 0 20px;
+    font: normal 400 14px/2 'Open Sans';
+    border: 2px solid #FFF;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #FFF;
+}
+
+/*fin activities*/
+/*début projets*/
+
+.home .latest {
+
+    float: left;
+    width: 100%;
+    padding: 85px 0 85px 0;
+    background: #92b3c7;
+}
+
+.home .latest-inner {
+
+    position: relative;
+    width: 90%;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.home .latest-inner .title {
+
+    float: left;
+    width: 100%;
+    margin: 0 0 80px 0;
+    font: normal 600 40px/2 'Open Sans';
+    text-align: center;
+}
+
+.home .latest-inner .block {
+
+    float: left;
+    width: 100%;
+    margin: 0 0 40px 0;
+
+}
+
+.home .show-all {
+
+    float: left;
+    width: 100%;
+    margin: 80px 0 80px 0;
+}
+
+.home .latest-nav {
+
+    position: relative;
+    float: left;
+    width: 100%;
+}
+
+.home .latest-inner .item {
+
+    margin-left: 3.125%;
+}
+
+.home .latest-inner .item:first-child {
+
+    margin-left: 0;
+}
+
+.item {
+
+    float: left;
+    overflow: hidden;
+    width: 31.25%;
+    margin: 0 0 40px 0;
+        margin-left: 0px;
+    text-decoration: none;
+}
+
+.item .image {
+
+    position: relative;
+    float: left;
+    width: 100%;
+}
+
+.item .image img {
+
+    width: 100%;
+    height: auto;
+}
+
+.item .text {
+
+    position: relative;
+    float: left;
+    width: 100%;
+    padding: 40px 0;
+
+}
+
+.item .text .bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 0;
+    background: #000;
+}
+
+.item h2 {
+    position: relative;
+    float: left;
+    width: 100%;
+    margin: 0 0 10px 0;
+    font: normal 600 18px/1.1 'Open Sans';
+    text-transform: uppercase;
+    text-align: center;
+    color: #000;
+}
+
+.item p {
+    position: relative;
+    float: left;
+    width: 100%;
+    font: normal 400 14px/2 'Open Sans';
+    text-align: center;
+    color: #444;
+}
+
+.home .show-all .button {
+    position: relative;
+    display: block;
+    width: 240px;
+    height: 40px;
+    margin: 0 auto;
+    font: normal 600 14px/2.7 'Open Sans';
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    color: #000;
+    border: 2px solid #000;
+}
+
+.home .show-all .button .txt {
+    position: relative;
+    float: left;
+    width: 100%;
+    color: #000;
+    margin: 0;
+    z-index: 1;
+}

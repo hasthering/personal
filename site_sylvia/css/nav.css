@@ -1,0 +1,46 @@
+.header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 80px;
+	background: #FFF;
+	z-index: 12;
+}
+
+.header .nav {
+	float: right;
+	height: 80px;
+	padding: 0 20px 0 0;
+	font: normal 600 16px/80px 'Open Sans';
+}
+
+.header .nav a {
+	float: left;
+	padding: 0 30px;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #999;
+}
+
+.header .nav a:hover {
+	color: #000;
+}
+
+.header .logo {
+	float: left;
+	color: #000;
+}
+
+.header .logo .text {
+	float: left;
+	padding: 19px 0;
+	text-transform: uppercase;
+	font: normal 600 19px/1.1 'Open Sans';
+}
+
+.header .logo .image {
+	float: left;
+	width: 80px;
+	height: 80px;
+}

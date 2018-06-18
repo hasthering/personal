@@ -1,0 +1,160 @@
+.footer {
+	float: left;
+	width: 100%;
+	padding: 100px 0;
+	background-color: #637725;
+}
+
+.footer .inner {
+	width: 90%;
+	max-width: 1280px;
+	margin: 0 auto;
+}
+
+.footer .inner .column {
+	float: left;
+	width: 31.25%;
+	margin: 0 0 0 3.125%;
+	font: normal 400 14px/1.5 'Open Sans';
+	color: #DDD;
+}
+
+/*début colonne une*/
+
+.footer .inner .one {
+	padding: 0 0 0 9.375%;
+	width: 21.875%;
+	margin: 0;
+}
+
+.footer .inner .one .logo {
+    float: left;
+    width: 100%;
+    height: 50px;
+    margin: 0 0 30px 0;
+}
+
+.footer .inner .one .logo .image {
+    float: left;
+    height: 100%;
+    margin: 0 12px 0 0;
+}
+
+.footer .inner .one .logo .image img {
+    height: 100%;
+    width: auto;
+}
+
+.footer .inner .one .logo .text {
+    float: left;
+    font: normal 600 16.5px/1.5 'Open Sans';
+    text-transform: uppercase;
+    color: #FFF;
+}
+
+.footer .inner .one .vcard {
+    float: left;
+    width: 100%;
+}
+
+.footer .inner .one .vcard .adr {
+    float: left;
+    width: 100%;
+    margin: 0 0 20px 0;
+}
+
+.footer .inner .one .vcard .email {
+    margin: 20px 0 0 0;
+}
+
+.footer .inner .one .vcard .email a{
+    text-decoration: none;
+    color: #FFF;
+}
+
+.footer .inner .one .vcard .email a:hover{
+    text-decoration: underline;
+}
+
+.footer .inner .one .vcard .tel, .footer .inner .one .vcard .fax, .footer .inner .one .vcard .email {
+    float: left;
+    width: 100%;
+}
+
+/*fin colonne une*/
+/*début colonne deux*/
+
+.footer .inner .two {
+padding: 0 0 0 3.125%;
+width: 28.125%;
+}
+
+.footer .inner h3 {
+    float: left;
+    width: 100%;
+    margin: 0 0 40px 0;
+    font: normal 600 16px/80px 'Open Sans';
+    text-transform: uppercase;
+    color: #FFF;
+}
+
+.footer .inner .sitemap {
+    float: left;
+    width: 100%;
+}
+
+.footer .inner .sitemap .left, .footer .inner .sitemap .right {
+    float: left;
+    width: 44.5%;
+}
+
+.footer .inner .sitemap .right {
+    margin: 0 0 0 11%;
+}
+
+.footer .inner .sitemap a {
+    float: left;
+    width: 100%;
+    text-decoration: none;
+    font: normal 400 14px/1.5 'Open Sans';
+    color: #DDD;
+}
+
+.footer .inner .sitemap a.title {
+    font: normal 600 16.5px/1.5 'Open Sans';
+    margin: 20px 0 12px 0;
+    color: #FFF;
+}
+
+.footer .inner .sitemap a.no-margin {
+    margin: 0;
+}
+
+.footer .inner .sitemap a.no-margin-top {
+    margin-top: 0;
+}
+
+.footer .inner .sitemap a.no-margin-bottom {
+    margin-bottom: 0;
+}
+
+/*fin colonne deux*/
+/*début colonne trois*/
+
+.footer .inner .three .share {
+    float: left;
+    width: 100%;
+    height: 40px;
+}
+
+.footer .inner .three .share a {
+    float: left;
+    width: 40px;
+    margin: 0 12px 0 0;
+}
+
+/*fin colonne trois*/
+
+.footer .inner .sitemap a:hover {
+    text-decoration: underline;
+}

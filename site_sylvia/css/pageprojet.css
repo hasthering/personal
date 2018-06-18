@@ -1,0 +1,100 @@
+.work {
+    float: left;
+    width: 100%;
+    height: 100%;
+    background: center url(../img/photo_1.jpg) fixed;
+    padding-top: 80px;
+}
+
+.work .description {
+	float: left;
+	width: 100%;
+	height: 386px;
+    background-color: rgba(146, 179, 199, 0.9);
+}
+
+.work .description .text {
+	height: 366px;
+	padding: 30px 30px 10px 30px;
+}
+
+.work .description .text h1 {
+    font: normal 600 40px/1.1 'Open Sans';
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 0 0 30px 0;
+    color: #000;
+}
+
+.work .description .text h2 {
+    font: normal 600 18px/1 'Open Sans';
+    letter-spacing: 2px;
+    margin: 0 0 30px 0;
+}
+
+.work .description .text p {
+    margin: 0 0 20px 0;
+    font: normal 400 16px/2 'Open Sans';
+    color: #444;
+}
+
+.work .parallax {
+	float: left;
+	width: 100%;
+	height: 500px;
+}
+
+.work .related {
+	float: left;
+	width: 100%;
+    background-color: rgba(146, 179, 199, 0.9);
+}
+
+.work .related .inner-related {
+    margin: 0 auto;
+    padding: 100px 0;
+    width: 90%;
+}
+
+.work .related .inner-related .object-box {
+	float: left;
+    width: 100%;
+}
+
+.work .related .inner-related .object-box .object {
+	float: left;
+	width: 40%;
+	padding: 0 5% 5% 5%;
+}
+
+.work .related .inner-related .object-box .object .image {
+	width: 100%;
+	position: relative;
+}
+
+.work .related .inner-related .object-box .object .image img {
+    width: 100%;
+    height: auto;
+    z-index: 10;
+}
+
+.work .related .inner-related .nav-project {
+	float: left;
+    width: 100%;
+    padding: 50px 0;
+}
+
+.work .related .inner-related .nav-project .next {
+	float: right;
+}
+
+.work .related .inner-related .nav-project .previous {
+	float: left;
+}
+
+.nav-control {
+	text-decoration: none;
+	font: normal 600 14px/2 'Open Sans';
+	text-transform: uppercase;
+	color: #000;
+}

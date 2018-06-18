@@ -1,0 +1,8 @@
+logo footer
+lien linkedin footer faux
+choix de la police ?
+rajouter l'adresse ?
+enlever fax footer ?
+dans l'onglet services : services à rajouter ?
+choix des photos du site
+dans l'onglet agence : rajouter les valeurs de l'agence, philosophie ?
